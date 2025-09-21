@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Dakshina Kannada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #023e8a;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #0096c7;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #023e8a;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #0096c7;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #00b4d8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Discover Dakshina Kannada</h1>
+    <p>Your Digital Travel Buddy</p>
+  </header>
+
+  <nav>
+    <a href="#places">Places</a>
+    <a href="#culture">Culture</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="places">
+    <h2>🌴 Famous Places</h2>
+    <div class="card">
+      <h3>Panambur Beach</h3>
+      <p>One of the most popular beaches known for its sunset views and water sports.</p>
+    </div>
+    <div class="card">
+      <h3>Kudremukh</h3>
+      <p>A beautiful mountain range in the Western Ghats, perfect for trekking and nature lovers.</p>
+    </div>
+    <div class="card">
+      <h3>Kukke Subramanya Temple</h3>
+      <p>A famous pilgrimage destination surrounded by scenic beauty.</p>
+    </div>
+  </section>
+
+  <section id="culture">
+    <h2>🎭 Culture & Festivals</h2>
+    <div class="card">
+      <h3>Kambala</h3>
+      <p>A traditional buffalo race held in paddy fields, showcasing the region’s heritage.</p>
+    </div>
+    <div class="card">
+      <h3>Yakshagana</h3>
+      <p>A vibrant folk theatre form combining dance, music, and storytelling.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>ℹ️ About Dakshina Kannada</h2>
+    <p>Dakshina Kannada is a coastal district of Karnataka, blessed with beaches, hills, temples, and rich traditions. It is known for its unique blend of modern education hubs and cultural heritage.</p>
+  </section>
+
+  <section id="contact">
+    <h2>📩 Contact Us</h2>
+    <form onsubmit="return submitForm()">
+      <label>Name:</label><br>
+      <input type="text" required><br><br>
+      <label>Email:</label><br>
+      <input type="email" required><br><br>
+      <label>Message:</label><br>
+      <textarea required></textarea><br><br>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Discover Dakshina Kannada | Designed for Travel Lovers 🌍</p>
+  </footer>
+
+  <script>
+    function submitForm() {
+      alert("Thank you for contacting us! We will get back to you soon.");
+      return false; // prevent actual form submission
+    }
+  </script>
+
+</body>
+</html>
